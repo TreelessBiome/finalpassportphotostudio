@@ -117,3 +117,26 @@
   position: relative;
 }
 
+
+ #basicCarousell {
+    height: 290px;
+  }
+
+  #basicCarousell .carousel-inner,
+  #basicCarousell .carousel-item,
+  #basicCarousell .carousel-item > .d-flex {
+    height: 100%;
+    
+  }
+
+  .card{
+    min-height: 250px;
+    
+  }
+
+  @media (max-width: 767.98px) {
+    #basicCarousell {
+      height: 650px; /* Adjust for mobile */
+    }
+  }
+
